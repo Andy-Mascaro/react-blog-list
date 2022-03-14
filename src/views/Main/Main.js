@@ -3,7 +3,6 @@ import BlogCard from '../../components/BlogCard/BlogCard';
 import { fetchBlogs } from '../../services/Blogs'; 
 
 
-
 export default function Main() {
   const [blogs, setBlogs] = useState([]);
 
